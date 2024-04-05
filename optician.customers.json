@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "660e480fb09e0aac54415203"
+  },
+  "name": "string",
+  "lastname": "string",
+  "address": {
+    "name": "string",
+    "number": "integer",
+    "floor": "integer",
+    "door": "string",
+    "postcode": "string",
+    "city": "string",
+    "country": "string"
+  },
+  "telephone": "integer",
+  "email": "string",
+  "referred_by": "string",
+  "attended_by": "string",
+  "purchase_date": "timestamp"
+},
+{
+  "_id": {
+    "$oid": "660e480fb09e0aac54415204"
+  },
+  "name": "Laura",
+  "lastname": "Puig",
+  "address": {
+    "name": "Carrer Valencia",
+    "number": 346,
+    "floor": 3,
+    "door": "A",
+    "postcode": "08012",
+    "city": "Barcelona",
+    "country": "Spain"
+  },
+  "telephone": 645392618,
+  "email": "puig.laura@gmail.com",
+  "referred_by": "",
+  "attended_by": "Oriol Rosell",
+  "purchase_date": "2023-04-21 17:30:00"
+},
+{
+  "_id": {
+    "$oid": "660e480fb09e0aac54415205"
+  },
+  "name": "Ignasi",
+  "lastname": "Carbonero",
+  "address": {
+    "name": "Carrer Mallorca",
+    "number": 472,
+    "floor": 2,
+    "door": "3B",
+    "postcode": "08012",
+    "city": "Barcelona",
+    "country": "Barcelona"
+  },
+  "telephone": 695637281,
+  "email": "ignasicarbonero70@hotmail.com",
+  "referred_by": "",
+  "attended_by": "Oriol Rosell",
+  "purchase_date": "2023-05-03 18:15:00"
+}]

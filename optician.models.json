@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "660ed07ee8c2402bb3d14943"
+  },
+  "shop_name": "string",
+  "confirmed_order": "integer",
+  "ordered_products": [
+    "_id_orderedProduct"
+  ],
+  "total_price": "float",
+  "delivered": [
+    "employee_id",
+    "new Date"
+  ],
+  "paid": "boolean",
+  "customer_info": "ObjectId",
+  "deliver_in": {
+   "delivery_info": "object"
+}},
+{
+  "_id": {
+    "$oid": "660e5183a57d795a188d24eb"
+  },
+  "model_name": "Aviator total black",
+  "brand_name": "Ray-Ban",
+  "frame": "Metallic",
+  "provider_name": "Ray-ban España",
+  "provider_id": {
+    "$oid": "660e4836b09e0aac5441520b"
+  },
+  "price": 205,
+  "bought_by": [
+    {
+      "customer": {
+        "$oid": "660e480fb09e0aac54415204"
+      }
+    },
+    {
+      "customer": {
+        "$oid": "660e480fb09e0aac54415205"
+      }
+    }
+  ]
+
+}]

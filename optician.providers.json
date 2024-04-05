@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "660e4836b09e0aac5441520a"
+  },
+  "name": "string",
+  "address": {
+    "name": "string",
+    "number": "integer",
+    "floor": "integer",
+    "door": "string",
+    "postcode": "integer",
+    "city": "string",
+    "country": "string"
+  },
+  "telephone": "integer",
+  "fax": "integer",
+  "documentId": "string"
+},
+{
+  "_id": {
+    "$oid": "660e4836b09e0aac5441520b"
+  },
+  "name": "Ray-Ban España",
+  "address": {
+    "name": "Paseo de la Castellana",
+    "number": 20,
+    "floor": 1,
+    "door": "",
+    "postcode": 28010,
+    "city": "Madrid",
+    "country": "Spain"
+  },
+  "telephone": 912804352,
+  "fax": 91280520,
+  "documentId": "D8665726"
+}]
